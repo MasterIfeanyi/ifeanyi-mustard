@@ -5,13 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  Nunito, sans-serif;
-    line-height: 1.2;
     /* font-family: sans-serif; */
 }
 
 html {
     scroll-behavior: smooth;
-    font-family: Verdana;
 }
 
 
@@ -26,6 +24,10 @@ html {
     --gray: #F8F9FD;
     --grey: #595757;
 
+}
+
+p {
+    line-height: 1.6;
 }
 
 ul {
@@ -59,7 +61,7 @@ img {
 }
 
 section {
-    padding: 70px 0px;
+    padding: 90px 0px;
 }
 
 .display-flex {
@@ -155,7 +157,6 @@ section {
     height: 100%;
     position: absolute;
     bottom: 1px;
-    /* top: 100px; */
     left: 0;
     z-index: -2;
     background-image: url("./images/67.svg");
@@ -167,6 +168,16 @@ section {
 /* DRY */
 
 
+.section-title {
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+
+.section-title h6 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 
 /* .banner-image:before{
     content: url("./images/Vector.png");
@@ -225,10 +236,7 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-.section-title {
-    text-align: center;
-    margin: 0 auto 40px auto;
-}
+
 
 
 /* .phone-img {
@@ -264,10 +272,6 @@ section {
     margin: 40px auto;
 }
 
-/* Number */
-/* .number h3 {
-    
-} */
 
 
 /* Invest */
