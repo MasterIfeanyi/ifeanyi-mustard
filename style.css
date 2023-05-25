@@ -259,12 +259,15 @@ section {
     height: 4px;
     width: calc(100% - 50px);
     color: black;
+    border-bottom: 1px solid #efefef;
+    max-width: 100%;
+    margin: 20px auto;
 }
 
 /* Number */
-.number h3 {
+/* .number h3 {
     
-}
+} */
 
 
 /* Invest */
