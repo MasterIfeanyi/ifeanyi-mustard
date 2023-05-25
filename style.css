@@ -37,7 +37,7 @@ li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 a {
@@ -253,6 +253,40 @@ section {
     top: 30%;
     right: -20%;
 } */
+
+
+
+
+/* Number */
+.number h3 {
+    
+}
+
+
+/* Invest */
+.invest {
+    padding: 80px 80px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+
+.invest p {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.invest h6 {
+    font-size: 20px;
+    color: grey;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+}
+
+
+.invest:hover{
+    border: 2px solid black;
+}
 
 
 
