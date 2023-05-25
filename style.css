@@ -254,8 +254,12 @@ section {
     right: -20%;
 } */
 
-
-
+/* line */
+.line {
+    height: 4px;
+    width: calc(100% - 50px);
+    color: black;
+}
 
 /* Number */
 .number h3 {
