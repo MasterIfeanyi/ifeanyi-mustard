@@ -13,10 +13,9 @@ html {
 
 
 :root {
-    --primary: #28a745;
+    --brand: #28a745;
     --gray: #F8F9FD;
     --grey: #595757;
-
 }
 
 p {
@@ -80,6 +79,7 @@ section {
 .navbar .navbar-nav .nav-link {
     color: black;
     margin-right: 20px;
+    margin-left: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -109,7 +109,7 @@ section {
 
 .btn-brand:hover {
     color: white;
-    background-color: var(--primary);
+    background-color: var(--brand);
 }
 
 
@@ -177,13 +177,6 @@ section {
 }
 
 
-.text-design { 
-    /* background: -webkit-linear-gradient(#42278A, #56D8F6); */
-    background: -webkit-linear-gradient(90deg, #A2E3FA 0%, #BFBAFE 18.47%, #D7CFC9 38.94%, #BBD0DC 57.46%, #B7E5D3 72.64%, #83DBF9 86.56%, #72E0FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .icon {
     display: flex;
     flex: none;
@@ -194,29 +187,6 @@ section {
     margin: 20px auto;
 }
 
-
-/* .phone-img {
-    position: relative;
-    z-index: 1;
-}
-
-.phone-img::after {
-    content: url("./images/Vectary-texture.png");
-    top: 0%;
-    left: -40%;
-    position: absolute;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-}
-
-.phone {
-    width: 690px;
-    height: 700px;
-    position: absolute;
-    top: 30%;
-    right: -20%;
-} */
 
 /* line */
 .line {
@@ -269,13 +239,23 @@ section {
 }
 
 .header-text span {
-    color: var(--primary);
+    color: var(--brand);
 }
 
 .header {
     background-color: rgba(255, 255, 255, 0.619);
     color: black;
     border-radius: 500px;
+}
+
+.cta-padding {
+    padding: 80px;
+}
+
+.cta-padding h6 {
+    text-transform: uppercase;
+    margin: 12px 0px;
+    color: var(--grey);
 }
 
 
@@ -310,9 +290,6 @@ section {
     align-items: center;
     font-weight: bolder;
     font-size: 1.125rem;
-    /* display: inline-flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 
@@ -379,7 +356,7 @@ footer li {
 }
 
 footer ul a {
-    color: #6936F5;
+    color: var(--grey);
 }
 
 .social-links{
