@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  Nunito, sans-serif;
-    /* font-family: sans-serif; */
 }
 
 html {
@@ -14,13 +13,7 @@ html {
 
 
 :root {
-    /* --primary: #1a1f4c; */
-    /* --primary: #0B081C; */
-    /* --primary: rgba(198, 181, 244, 1); */
     --primary: #28a745;
-    --text: #202046;
-    --dark: #4a0586;
-    --brand: #6936F5;
     --gray: #F8F9FD;
     --grey: #595757;
 
@@ -53,7 +46,6 @@ a:hover {
 
 img {
     width: 100%;
-    display: block;
 }
 
 .slow {
@@ -70,11 +62,7 @@ section {
     display: flex;
 }
 
-.display-inline-flex {
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-}
+
 
 .bg-cover {
     background-position: center center;
@@ -88,11 +76,6 @@ section {
 
 /* NavBar */
 
-.navbar {
-    /* background-color: white;
-    font-size: 1rem;
-    color: black; */
-}
 
 .navbar .navbar-nav .nav-link {
     color: black;
@@ -120,7 +103,7 @@ section {
 
 .btn-brand {
     background-color: black;
-    border-color: 1px solid #895DFB;
+    border-color: 1px solid black;
 }
 
 
@@ -131,15 +114,14 @@ section {
 
 
 .btn-outline-brand {
-    background-color: transparent;
-    border-color: #895DFB;
-    color: #895DFB;
+    background-color: white;
+    color: black;
 }
 
 
 .btn-outline-brand:hover {
-    background-color: #895DFB;
-    color: #fff;
+    background-color: white;
+    color: black;
 }
   
 
@@ -180,41 +162,6 @@ section {
     color: var(--grey);
 }
 
-/* .banner-image:before{
-    content: url("./images/Vector.png");
-    position: absolute;
-    z-index: -1;
-    left: 0%;
-    top: 0%;
-}
-
-.banner-image:after{
-    content: url("./images/Vector.png");
-    position: absolute;
-    z-index: -1;
-    right: 0%;
-    top: 0%;
-    transform: rotateZ(90deg);
-}
-
-.vector-pseudo::after{
-    content: url("./images/Vector.png");
-    position: absolute;
-    z-index: -1;
-    right: 0%;
-    bottom: 0%;
-    transform: rotateZ(180deg);
-}
-
-.vector-pseudo::before{
-    content: url("./images/Vector.png");
-    position: absolute;
-    z-index: -1;
-    bottom: 0%;
-    left: 0%;
-    transform: rotateZ(270deg);
-} */
-
 
 
 .overlay {
@@ -237,7 +184,15 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-
+.icon {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin: 20px auto;
+}
 
 
 /* .phone-img {
