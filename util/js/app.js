@@ -73,11 +73,11 @@ window.addEventListener("scroll", () => {
     if (window.scrollY > 100) {
         // nav.classList.add("bg-dark");
         nav.classList.remove("py-5");
-        nav.classList.add("py-3");
+        nav.classList.add("py-3", "shadow");
     } else {
         // nav.classList.remove("bg-dark");
         nav.classList.add("py-5");
-        nav.classList.remove("py-3");
+        nav.classList.remove("py-3", "shadow");
     }
 })
 
