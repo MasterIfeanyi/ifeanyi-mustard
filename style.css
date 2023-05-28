@@ -274,7 +274,7 @@ section {
 }
 
 .story-header {
-    border-image: url("./images/line-shape-2.svg") 100% 1 0 stretch;
+    border-image: url("./images/line-shape-2.svg") 100% 25 25 stretch;
 }
 
 .header-text {
